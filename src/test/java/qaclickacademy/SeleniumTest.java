@@ -9,12 +9,12 @@ public class SeleniumTest {
 	@Test
 	public void BrowserAUtomation()
 	{
-		System.out.println("calling--BrowserAUtomation");	
+		System.out.println("calling from jenkins--BrowserAUtomation");	
 	}
 	@Test
 	public void elementsUi()
 	{
-		System.out.println("calling--elementsUi");	
+		System.out.println("calling from jenkins--elementsUi");	
 	}
 	
 	
