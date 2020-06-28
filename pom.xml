@@ -8,8 +8,22 @@
   <name>Mavenjava</name>
   <url>http://maven.apache.org</url>
   
-  
-  
+   <!-- ADDING BELOW PLUGIN-START-->
+  build>
+    <pluginManagement>
+      <plugins>
+  <plugin>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.3.0</version>
+  <configuration>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+  </configuration>
+</plugin>
+        
+           </plugins>
+    </pluginManagement>
+  </build>
+   <!-- ADDING BELOW PLUGIN-END-->
   
   <profiles>
   <profile>
