@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
   
    <!-- ADDING BELOW PLUGIN-START-->
-  build>
+  <build>
     <pluginManagement>
       <plugins>
 <plugin>            
