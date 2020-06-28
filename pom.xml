@@ -8,7 +8,7 @@
   <name>Mavenjava</name>
   <url>http://maven.apache.org</url>
   
-   <!-- ADDING BELOW PLUGIN-START-->
+  
   <build>
     <pluginManagement>
       <plugins>
@@ -23,7 +23,13 @@
            </plugins>
     </pluginManagement>
   </build>
-   <!-- ADDING BELOW PLUGIN-END-->
+
+  
+  
+  
+  
+  
+  
   
   <profiles>
   <profile>
